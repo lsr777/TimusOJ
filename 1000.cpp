@@ -14,7 +14,7 @@ int main() {
     i64 c;
     i64 a, b;
 
-    while (scanf("%lld %lld", &a, &b) != EOF) {     // EOF = End Of File // 
+    while (scanf("%lld %lld", &a, &b) != EOF) {     // EOF = End Of File [inputs] // 
         c = Sum(a, b);
         printf("%lld\n", c);                          
     }
